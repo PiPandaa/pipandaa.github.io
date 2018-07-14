@@ -1,0 +1,233 @@
+* {
+  font-family: 'Joti One', cursive;
+  color: #440381
+}
+body {
+  background-color:#2191FB;
+}
+hr {
+  border: 5px solid#440381;
+}
+
+nav a{
+  color: #440381;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 30px
+}
+
+h2{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 45px;
+}
+i{
+  font-size: 50px;
+}
+.Maincontent{
+  width: 60%;
+  margin:auto;
+}
+iframe{
+  width:100%;
+  background-color: #440381;
+  padding:10px;
+}
+img{
+  background-color: #440381;
+  padding:10px;
+  float: left;
+  margin-right: 20px;
+}
+.home-intro-text{
+  font-size: 35px;
+}
+.social-media-cotanier{
+  text-align: center;
+}
+
+.row{
+  display: flex;
+}
+.column1{
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .row {
+    display:  block;
+  }
+.Homepic {
+width: 100%;
+}
+
+
+
+}
+/* ------- Wolf graphic -------- */
+
+
+.body {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.poly-wrapper {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  padding-left: 50px;
+}
+
+.poly {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: scale(0);
+}
+
+.poly:nth-child(1) {
+  background: linear-gradient(#3D84D8, #BA32BF);
+  clip-path: polygon(14% 55%, 4% 100%, 0 51%);
+  animation: show 500ms ease-in 100ms forwards;
+}
+
+.poly:nth-child(2) {
+  background: linear-gradient(-90deg, #3D84D8, #BA32BF);
+  clip-path: polygon(12% 62%, 4% 100%, 33% 75%);
+  animation: show 500ms ease-in 200ms forwards;
+}
+
+.poly:nth-child(3) {
+  background: linear-gradient(45deg, #3EA8E6, #279ee3);
+  clip-path: polygon(12% 62%, 36% 53%, 14% 55%);
+  animation: show 500ms ease-in 300ms forwards;
+}
+
+.poly:nth-child(4) {
+  background: linear-gradient(#4345AF, #194CAA);
+  clip-path: polygon(36% 53%, 12% 62%, 33% 75%);
+  animation: show 500ms ease-in 400ms forwards;
+}
+
+.poly:nth-child(5) {
+  background: linear-gradient(#3D3495, #1D3B92);
+  clip-path: polygon(36% 53%, 33% 75%, 50% 62%);
+  animation: show 500ms ease-in 500ms forwards;
+}
+
+.poly:nth-child(6) {
+  background: linear-gradient(#26205c, #1D3B92);
+  clip-path: polygon(36% 53%, 50% 62%, 65% 62%);
+  animation: show 500ms ease-in 600ms forwards;
+}
+
+.poly:nth-child(7) {
+  background: linear-gradient(#5d53c3, #1D3B92);
+  clip-path: polygon(36% 53%, 65% 62%, 69% 58%);
+  animation: show 500ms ease-in 700ms forwards;
+}
+
+.poly:nth-child(8) {
+  background: linear-gradient(#0d75e0, #2144a7);
+  clip-path: polygon(36% 53%, 69% 58%, 65% 50%, 47% 50%);
+  animation: show 500ms ease-in 800ms forwards;
+}
+
+.poly:nth-child(9) {
+  background: linear-gradient(#0b63be, #1b3889);
+  clip-path: polygon(69% 58%, 65% 50%, 69% 48%, 74% 50%);
+  animation: show 500ms ease-in 900ms forwards;
+}
+
+.poly:nth-child(10) {
+  background: linear-gradient(#0FA2E3, #0d91cb);
+  clip-path: polygon(65% 50%, 69% 48%, 52% 41%, 46% 42%, 47% 50%);
+  animation: show 500ms ease-in 1000ms forwards;
+}
+
+.poly:nth-child(11) {
+  background: linear-gradient(#134CA1, #1657b8);
+  clip-path: polygon(46% 42%, 47% 50%, 36% 53%, 35% 39%);
+  animation: show 500ms ease-in 1100ms forwards;
+}
+
+.poly:nth-child(12) {
+  background: linear-gradient(white, white);
+  clip-path: polygon(44% 39%, 46% 42%, 35% 39%);
+  animation: show 500ms ease-in 1200ms forwards;
+}
+
+.poly:nth-child(13) {
+  background: linear-gradient(#0E9AD8, #70cdf6);
+  clip-path: polygon(44% 39%, 46% 42%, 52% 41%, 45% 36%);
+  animation: show 500ms ease-in 1300ms forwards;
+}
+
+.poly:nth-child(14) {
+  background: linear-gradient(#0E9AD8, #70cdf6);
+  clip-path: polygon(44% 39%, 45% 36%, 31% 29%, 35% 39%);
+  animation: show 500ms ease-in 1400ms forwards;
+}
+
+.poly:nth-child(15) {
+  background: linear-gradient(#27b4f1, #2953ce);
+  clip-path: polygon(14% 55%, 25% 40%, 36% 53%);
+  animation: show 500ms ease-in 1500ms forwards;
+}
+
+.poly:nth-child(16) {
+  background: linear-gradient(#0E9AD7, #1D3B92);
+  clip-path: polygon(25% 40%, 36% 53%, 35% 39%);
+  animation: show 500ms ease-in 1600ms forwards;
+}
+
+.poly:nth-child(17) {
+  background: linear-gradient(#0E9AD8, #10abf0);
+  clip-path: polygon(25% 40%, 35% 39%, 31% 29%, 24% 25%);
+  animation: show 500ms ease-in 1700ms forwards;
+}
+
+.poly:nth-child(18) {
+  background: linear-gradient(#175BC2, #0c89c0);
+  clip-path: polygon(25% 40%, 24% 25%, 14% 55%);
+  animation: show 500ms ease-in 1800ms forwards;
+}
+
+.poly:nth-child(19) {
+  background: linear-gradient(#34ADE3, #0c89c0);
+  clip-path: polygon(0% 51%, 14% 55%, 24% 25%, 17% 24%);
+  animation: show 500ms ease-in 1900ms forwards;
+}
+
+.poly:nth-child(20) {
+  background: linear-gradient(#4eafe8, #64b9eb);
+  clip-path: polygon(24% 25%, 17% 24%, 32% 13%);
+  animation: show 500ms ease-in 2000ms forwards;
+}
+
+.poly:nth-child(21) {
+  background: linear-gradient(#1555b5, #1657ba);
+  clip-path: polygon(24% 25%, 32% 13%, 31% 29%);
+  animation: show 500ms ease-in 2100ms forwards;
+}
+
+@keyframes show {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
